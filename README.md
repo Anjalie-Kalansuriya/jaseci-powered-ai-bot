@@ -1,3 +1,4 @@
 # jaseci-powered-ai-bot
 
-##Shimak
+## Contributors
+   Shimak- shimak998@gmail.com -180608V
