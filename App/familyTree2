@@ -1,0 +1,108 @@
+{
+    "families": [
+        {
+            "family_name": "Perera",
+            "uid": "0x1"
+        },
+        {
+            "family_name": "Fernando",
+            "uid": "0x2"
+        }
+    ],
+    "members": [
+        {
+            "uid": "0x1",
+            "family_id": "0x1",
+            "name": "Hansi Perera",
+            "date_of_birth": "1995-10-19",
+            "profession": "Civil Engineer",
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Male"
+        },
+        {
+            "uid": "0x2",
+            "family_id": "0x1",
+            "name": "Nimal Silva",
+            "date_of_birth": "1969-08-23",
+            "profession": "Electrical Engineer",
+            "parents": null,
+            "deceased": true,
+            "children": [
+                "0x1",
+                "ox4",
+                "0x5",
+                "0x6"
+            ],
+            "spouse": "0x3",
+            "gender": "Male"
+        },
+        {
+            "uid": "0x3",
+            "family_id": "0x2",
+            "name": "Shimaki Bandara",
+            "date_of_birth": "1958-09-21",
+            "profession": "Housewife",
+            "parents": null,
+            "deceased": false,
+            "children": [
+                "0x1",
+                "0x4",
+                "0x5",
+                "0x6"
+            ],
+            "spouse": "0x2",
+            "gender": "Female"
+        },
+        {
+            "uid": "0x4",
+            "family_id": "0x1",
+            "name": "Dilshan Perera",
+            "date_of_birth": "1997-04-26",
+            "profession": "Actor",
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Male"
+        },
+        {
+            "uid": "0x5",
+            "family_id": "0x1",
+            "name": "Wicky Perera",
+            "date_of_birth": "1999-06-17",
+            "profession": "Student",
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Feale"
+        },
+        {
+            "uid": "0x6",
+            "family_id": "0x1",
+            "name": "Nirmani Perera",
+            "date_of_birth": "2002-02-22",
+            "profession": "Singer",
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Female"
+        }
+    ]
+}
